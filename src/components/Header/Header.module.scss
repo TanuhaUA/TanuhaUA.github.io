@@ -1,0 +1,26 @@
+@import '../../styles/common.scss';
+$paddingLeft: 8px;
+
+.name {
+  font-size: 40px;
+  font-weight: 500;
+  color: $titleColor;
+}
+.additionalInfo {
+  padding-left: $paddingLeft;
+}
+
+.jobTitle {
+  margin-bottom: 20px;
+  color: $titleColor;
+  font-size: 25px;
+  font-weight: 400;
+}
+
+.summary {
+  margin-top: 20px;
+}
+
+.summaryLine {
+  margin: 0;
+}

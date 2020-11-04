@@ -1,0 +1,14 @@
+@import '../../styles/common.scss';
+
+.content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: $verticalGridGap $horizontalGridGap;
+  color: $subtitleColor;
+  font-size: 16px;
+  font-style: italic;
+}
+
+.link {
+  color: $subtitleColor;
+}
